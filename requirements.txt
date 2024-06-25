@@ -7,3 +7,4 @@ passlib
 passlib[bcrypt]
 bcrypt
 pyyaml==3.13
+anyio>=4.4.0 # not directly required, pinned by Snyk to avoid a vulnerability
